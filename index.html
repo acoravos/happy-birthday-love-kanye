@@ -1,28 +1,61 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-{% include header.html %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+
+        <title>Happy 28th Birthday Fred</title>
+
+
+    <meta name="description" content="Futuristic web design">
+
+
+
+    <link rel="icon" href="/assets/img/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+<div class="header">
+    <h1>Happy 28th Birthday Babe!</h1>
+</div>
+
 
 <div class="portfolio">
-    <h1>Web Design:</h1>
-    <ul>
-        {% for websites in site.data.websites %}
-        <li>
-            <a href="{{ websites.url }}">{{ websites.url }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+    <h1>A Challenge</h1>
+        <p>You turn 28th today and we know what that means: you are only getting further away from your peak gaming skillz.</p>
+        </br>
+        <p> I know how much you want to play game together, so for your birthday, I built you one! I hope you can beat it.</p>
 </div>
 
 
 <div class="blog">
-    <h1>Blog Posts:</h1>
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+    <h1>Kanye's Crypto Catch</h1>
+
+    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/108723806/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+
+    <p> Note: Kanye was not harmed in the production of this game.</p>
 </div>
+
+<div class="blog">
+    <h1>Credits and Support</h1>
+    <p>Having trouble playing the game? Contact your GF. This game was inspired by G. Walker's Pikachu Game via CS50. It was created using MIT Scratch. View the <a href="https://scratch.mit.edu/projects/108723806/"> code here</a>.</p>
+</div>
+
+<div class="blog">
+    <p align="middle">Copyright 2016. Made just for you with lots of love. </p>
+</div>
+
+    </div>
+
+</body>
+
+</html>
