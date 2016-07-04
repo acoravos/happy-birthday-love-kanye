@@ -1,4 +1,5 @@
 # happy-birthday-love-kanye
-Kanye's Crypto Catch
+
+Kanye challenges you to a game of crypto catch.
 
 Check out a demo at [HappyBirthdayFredEhrsam.com](http://www.happybirthdayfredehrsam.com).
