@@ -2,4 +2,4 @@
 
 Kanye challenges you to a game of crypto catch.
 
-Check out a demo at [HappyBirthdayFredEhrsam.com](http://www.happybirthdayfredehrsam.com).
+Check out a demo at [HappyBirthdayFredEhrsam.com](https://acoravos.github.io/happy-birthday-love-kanye).
